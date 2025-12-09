@@ -28,7 +28,7 @@ export function FooterCTA() {
           <div className="mt-8">
             <p className="mb-4 text-sm text-muted-foreground">スマホでQRコードを読み取ってアクセス</p>
             <div className="inline-block p-4 bg-white rounded-xl shadow-lg">
-              <img src="/qr-code.png" alt="QRコード" className="w-48 h-48" />
+              <img src="/QR.png" alt="QRコード" className="w-48 h-48" />
             </div>
           </div>
         </div>
