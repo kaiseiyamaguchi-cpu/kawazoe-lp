@@ -1,0 +1,11 @@
+section,image_id,filename,recommended_width,recommended_height,aspect_ratio,alt_text,description
+hero,hero_mockup,mobile-app-habit-tracking-dashboard-with-ranking-a.jpg,640,1138,9:16,TSUZUKU アプリ画面,メインのヒーローセクションに表示されるアプリのモックアップ画像。スマホの縦長比率（9:16）で、アプリのダッシュボード画面を表示。
+features,ranking_image,leaderboard-ranking-gamification-mobile-app-japane.jpg,800,600,4:3,ランキング画面,ランキング機能を説明するための画像。リーダーボードやゲーミフィケーション要素が見える画面。
+features,streak_image,streak-counter-progress-chart-habit-tracking-app-j.jpg,800,600,4:3,ストリーク画面,連続記録（ストリーク）やプログレスチャートを表示する画面。努力の可視化を示す。
+community,community_image,community-forum-social-feed-motivation-posts-japan.jpg,1000,750,4:3,コミュニティ画面,コミュニティ掲示板やソーシャルフィード画面。投稿やモチベーションメッセージが表示されている。
+footer_cta,app_store_badge,images/app-store-badge.png,120,40,3:1,App Store,App Storeのダウンロードバッジ。公式のAppleバッジを使用。
+footer_cta,google_play_badge,google-play-badge.png,135,40,3.375:1,Google Play,Google Playのダウンロードバッジ。公式のGoogleバッジを使用。
+header,logo_dark,icon-dark-32x32.png,32,32,1:1,TSUZUKU ロゴ（ダーク）,ダークモード用のアプリロゴ・アイコン。32x32ピクセル。
+header,logo_light,icon-light-32x32.png,32,32,1:1,TSUZUKU ロゴ（ライト）,ライトモード用のアプリロゴ・アイコン。32x32ピクセル。
+meta,favicon,icon.svg,任意,任意,1:1,TSUZUKU アイコン,ファビコン・アプリアイコンとして使用されるSVGファイル。
+meta,apple_icon,apple-icon.png,180,180,1:1,Apple Touch Icon,iOSデバイスでホーム画面に追加した際に表示されるアイコン。180x180ピクセル推奨。
