@@ -33,7 +33,7 @@ export function HeroSection() {
 
           {/* App mockup */}
           <div className="mt-12 w-full max-w-md">
-            <div className="relative mx-auto aspect-[9/16] w-64 overflow-hidden rounded-[2.5rem] border-8 border-foreground/10 bg-card shadow-2xl">
+            <div className="relative mx-auto aspect-[9/16] w-64 overflow-hidden rounded-[2.5rem] border-8 border-foreground/10 bg-transparent shadow-2xl">
               <img src="/mobile-app-habit-tracking-dashboard-with-ranking-a.jpg" alt="TSUZUKU アプリ画面" className="h-full w-full object-contain" />
             </div>
           </div>
