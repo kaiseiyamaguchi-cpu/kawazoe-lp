@@ -26,15 +26,30 @@ export function HeroSection() {
           </h1>
 
           {/* CTA Button */}
-          <Button size="lg" className="group gap-2 text-lg font-semibold">
-            <Sparkles className="h-5 w-5 transition-transform group-hover:-translate-y-0.5" />
-            使ってみる
-          </Button>
+          <a href="https://tsuzuku.flutterflow.app/login" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="group gap-3 text-xl font-semibold px-8 py-7">
+              <Sparkles className="h-6 w-6 transition-transform group-hover:-translate-y-0.5" />
+              使ってみる
+            </Button>
+          </a>
 
-          {/* App mockup */}
-          <div className="mt-12 w-full max-w-md">
-            <div className="relative mx-auto w-80 bg-transparent">
-              <img src="/mobile-app-habit-tracking-dashboard-with-ranking-a.png" alt="TSUZUKU アプリ画面" className="w-full h-auto" />
+          {/* App mockup + QR Code */}
+          <div className="mt-12 w-full max-w-5xl">
+            <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-12">
+              {/* Phone mockup */}
+              <div className="relative w-80 bg-transparent">
+                <img src="/mobile-app-habit-tracking-dashboard-with-ranking-a.png" alt="TSUZUKU アプリ画面" className="w-full h-auto" />
+              </div>
+              
+              {/* QR Code section */}
+              <div className="flex flex-col items-center gap-4 lg:items-start">
+                <div className="p-4 bg-white rounded-2xl shadow-xl">
+                  <img src="/QR.png" alt="QRコード" className="w-48 h-48" />
+                </div>
+                <p className="text-lg font-semibold text-primary text-center lg:text-left">
+                  スマホで今すぐ始められます！
+                </p>
+              </div>
             </div>
           </div>
         </div>

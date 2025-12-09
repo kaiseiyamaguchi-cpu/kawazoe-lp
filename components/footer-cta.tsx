@@ -12,25 +12,28 @@ export function FooterCTA() {
             <br />
             今すぐ手に入れよう
           </h2>
-          <p className="mb-8 text-lg text-muted-foreground">
+          <p className="mb-12 text-lg text-muted-foreground">
             まずは無料で使ってみて、ランキングを覗いてみませんか？
             <br />
             三日坊主の自分を変えるチャンスです。
           </p>
 
-          <Button size="lg" className="group gap-2 text-lg font-semibold mb-8">
-            <Sparkles className="h-5 w-5" />
-            無料で使ってみる
-            <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
-          </Button>
-
           {/* QR Code */}
-          <div className="mt-8">
+          <div className="mb-8">
             <p className="mb-4 text-sm text-muted-foreground">スマホでQRコードを読み取ってアクセス</p>
-            <div className="inline-block p-4 bg-white rounded-xl shadow-lg">
-              <img src="/QR.png" alt="QRコード" className="w-48 h-48" />
+            <div className="inline-block p-6 bg-white rounded-2xl shadow-xl mb-6">
+              <img src="/QR.png" alt="QRコード" className="w-56 h-56" />
             </div>
           </div>
+
+          {/* CTA Button */}
+          <a href="https://tsuzuku.flutterflow.app/login" target="_blank" rel="noopener noreferrer">
+            <Button size="lg" className="group gap-3 text-xl font-semibold px-10 py-7">
+              <Sparkles className="h-6 w-6" />
+              無料で使ってみる
+              <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+            </Button>
+          </a>
         </div>
       </div>
     </section>
