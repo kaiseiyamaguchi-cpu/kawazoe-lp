@@ -15,26 +15,13 @@ export const metadata: Metadata = {
     "ランキング機能とコミュニティの力で、あなたの努力を「継続」に変えるアプリです。仲間と競い合い、励まし合うことで、自然と机に向かう習慣が身につきます。",
   generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/icon.png",
+    apple: "/icon.png",
   },
 }
 
 export const viewport: Viewport = {
-  themeColor: "#22c55e",
+  themeColor: "#5eb8c6",
 }
 
 export default function RootLayout({

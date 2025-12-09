@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Download, ArrowRight } from "lucide-react"
+import { Sparkles, ArrowRight } from "lucide-react"
 
 export function FooterCTA() {
   return (
@@ -13,21 +13,23 @@ export function FooterCTA() {
             今すぐ手に入れよう
           </h2>
           <p className="mb-8 text-lg text-muted-foreground">
-            まずは無料でダウンロードして、ランキングを覗いてみませんか？
+            まずは無料で使ってみて、ランキングを覗いてみませんか？
             <br />
             三日坊主の自分を変えるチャンスです。
           </p>
 
-          <Button size="lg" className="group gap-2 text-lg font-semibold">
-            <Download className="h-5 w-5" />
-            無料でダウンロードする
+          <Button size="lg" className="group gap-2 text-lg font-semibold mb-8">
+            <Sparkles className="h-5 w-5" />
+            無料で使ってみる
             <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
           </Button>
 
-          {/* App store badges placeholder */}
-          <div className="mt-8 flex items-center justify-center gap-4">
-            <img src="/images/app-store-badge.png" alt="App Store" className="h-12" />
-            <img src="/google-play-badge.png" alt="Google Play" className="h-12" />
+          {/* QR Code */}
+          <div className="mt-8">
+            <p className="mb-4 text-sm text-muted-foreground">スマホでQRコードを読み取ってアクセス</p>
+            <div className="inline-block p-4 bg-white rounded-xl shadow-lg">
+              <img src="/qr-code.png" alt="QRコード" className="w-48 h-48" />
+            </div>
           </div>
         </div>
       </div>

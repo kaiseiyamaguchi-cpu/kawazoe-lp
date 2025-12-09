@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button"
-import { Download, Sparkles } from "lucide-react"
+import { Sparkles } from "lucide-react"
 
 export function HeroSection() {
   return (
@@ -27,8 +27,8 @@ export function HeroSection() {
 
           {/* CTA Button */}
           <Button size="lg" className="group gap-2 text-lg font-semibold">
-            <Download className="h-5 w-5 transition-transform group-hover:-translate-y-0.5" />
-            アプリをダウンロード
+            <Sparkles className="h-5 w-5 transition-transform group-hover:-translate-y-0.5" />
+            使ってみる
           </Button>
 
           {/* App mockup */}
