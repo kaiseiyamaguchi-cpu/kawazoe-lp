@@ -8,8 +8,8 @@ const features = [
   },
   {
     icon: Medal,
-    title: "称号・バッジ獲得",
-    description: "継続日数に応じて特別な称号をゲット。",
+    title: "豪華景品獲得",
+    description: "ランキングで上位になれば特別景品をプレゼント予定。",
   },
   {
     icon: BarChart3,
@@ -27,15 +27,8 @@ export function TrackingSection() {
         <div className="grid gap-8 md:grid-cols-3">
           {features.map((feature) => (
             <div key={feature.title} className="group flex flex-col items-center text-center">
-              <div className="mb-6 overflow-hidden rounded-2xl bg-muted shadow-md transition-shadow group-hover:shadow-lg">
-                <img
-                  src={`/.jpg?height=240&width=200&query=${encodeURIComponent(feature.title + " mobile app screen japanese")}`}
-                  alt={feature.title}
-                  className="h-60 w-50 object-cover"
-                />
-              </div>
-              <div className="mb-3 inline-flex h-10 w-10 items-center justify-center rounded-full bg-primary/10">
-                <feature.icon className="h-5 w-5 text-primary" />
+              <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-2xl bg-primary/10 transition-all group-hover:bg-primary/20 group-hover:scale-110">
+                <feature.icon className="h-10 w-10 text-primary" />
               </div>
               <h3 className="mb-2 text-lg font-semibold text-foreground">{feature.title}</h3>
               <p className="text-muted-foreground">{feature.description}</p>

@@ -17,8 +17,8 @@ features,card2_description,visualization_description,「何日続いたか」「
 tracking,section_title,tracking_title,モチベーション機能の特徴
 tracking,feature1_title,realtime_title,リアルタイム順位
 tracking,feature1_description,realtime_desc,月間ランキングで自分の立ち位置を確認。
-tracking,feature2_title,badge_title,称号・バッジ獲得
-tracking,feature2_description,badge_desc,継続日数に応じて特別な称号をゲット。
+tracking,feature2_title,badge_title,豪華景品獲得
+tracking,feature2_description,badge_desc,ランキングで上位になれば特別景品をプレゼント予定。
 tracking,feature3_title,log_title,学習ログ・グラフ
 tracking,feature3_description,log_desc,毎日の起床時間と学習量を一目で把握。
 community,section_title,community_title_part1,孤独な学習にさよなら。

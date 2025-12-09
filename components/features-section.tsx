@@ -7,10 +7,10 @@ export function FeaturesSection() {
       <div className="container mx-auto px-4">
         <div className="grid gap-8 md:grid-cols-2">
           {/* Ranking Feature */}
-          <Card className="border-0 bg-card shadow-lg transition-shadow hover:shadow-xl">
+          <Card className="border-0 bg-card shadow-lg transition-all hover:shadow-xl hover:-translate-y-1">
             <CardHeader className="pb-4">
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
-                <Trophy className="h-6 w-6 text-primary" />
+              <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-xl bg-primary/10">
+                <Trophy className="h-8 w-8 text-primary" />
               </div>
               <CardTitle className="text-xl font-bold">ランキングで熱くなる</CardTitle>
               <CardDescription className="text-base">早起きと学習が「ポイント」に変わる</CardDescription>
@@ -21,17 +21,14 @@ export function FeaturesSection() {
                 <br />
                 ゲーム感覚だから、苦しい朝も起きられます。
               </p>
-              <div className="mt-6 overflow-hidden rounded-xl bg-muted">
-                <img src="/leaderboard-ranking-gamification-mobile-app-japane.jpg" alt="ランキング画面" className="w-full" />
-              </div>
             </CardContent>
           </Card>
 
           {/* Visualization Feature */}
-          <Card className="border-0 bg-card shadow-lg transition-shadow hover:shadow-xl">
+          <Card className="border-0 bg-card shadow-lg transition-all hover:shadow-xl hover:-translate-y-1">
             <CardHeader className="pb-4">
-              <div className="mb-4 inline-flex h-12 w-12 items-center justify-center rounded-xl bg-accent/20">
-                <TrendingUp className="h-6 w-6 text-accent-foreground" />
+              <div className="mb-4 inline-flex h-16 w-16 items-center justify-center rounded-xl bg-accent/20">
+                <TrendingUp className="h-8 w-8 text-accent-foreground" />
               </div>
               <CardTitle className="text-xl font-bold">努力を可視化する</CardTitle>
               <CardDescription className="text-base">連続記録（ストリーク）を伸ばそう</CardDescription>
@@ -42,9 +39,6 @@ export function FeaturesSection() {
                 <br />
                 積み上げた記録が自信になり、途切れさせたくない心理が働きます。
               </p>
-              <div className="mt-6 overflow-hidden rounded-xl bg-muted">
-                <img src="/streak-counter-progress-chart-habit-tracking-app-j.jpg" alt="ストリーク画面" className="w-full" />
-              </div>
             </CardContent>
           </Card>
         </div>
