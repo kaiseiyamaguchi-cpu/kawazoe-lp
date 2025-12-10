@@ -9,14 +9,6 @@ export function Footer() {
           {/* Logo */}
           <div className="text-xl font-bold text-primary">TSUZUKU</div>
 
-          {/* Social */}
-          <div className="text-sm text-muted-foreground">
-            アプリ公式:{" "}
-            <Link href="#" className="font-medium text-foreground hover:text-primary transition-colors">
-              @tsuzuku_app
-            </Link>
-          </div>
-
           {/* Links */}
           <div className="flex items-center gap-4 text-sm">
             <Link href="/terms" className="text-muted-foreground hover:text-foreground transition-colors">
