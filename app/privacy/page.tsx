@@ -39,7 +39,7 @@ export default function PrivacyPage() {
           <ol>
             <li>
               <strong>アカウント登録情報</strong>
-              <ul>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>メールアドレス</li>
                 <li>ユーザー名（ニックネーム）</li>
                 <li>プロフィール画像（任意）</li>
@@ -47,7 +47,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>習慣トラッキング情報</strong>
-              <ul>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>起床時刻</li>
                 <li>学習時間</li>
                 <li>達成記録</li>
@@ -56,7 +56,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>コミュニティ投稿情報</strong>
-              <ul>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>投稿内容（テキスト、画像）</li>
                 <li>コメント</li>
                 <li>いいね・リアクション</li>
@@ -64,7 +64,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>決済情報</strong>
-              <ul>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>クレジットカード情報（決済代行会社Stripeを通じて処理）</li>
                 <li>取引履歴</li>
               </ul>
@@ -75,7 +75,7 @@ export default function PrivacyPage() {
           <ol>
             <li>
               <strong>利用情報</strong>
-              <ul>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>アプリの起動日時、利用時間</li>
                 <li>操作ログ</li>
                 <li>閲覧履歴</li>
@@ -83,7 +83,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>デバイス情報</strong>
-              <ul>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>IPアドレス</li>
                 <li>デバイスの種類、OS</li>
                 <li>ブラウザの種類とバージョン</li>
@@ -92,7 +92,7 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>位置情報</strong>
-              <ul>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>概要的な位置情報（市区町村レベル）</li>
                 <li>※詳細な位置情報は収集しません</li>
               </ul>
@@ -130,7 +130,7 @@ export default function PrivacyPage() {
           <ol>
             <li>
               <strong>決済サービス提供事業者</strong>
-              <ul>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>Stripe, Inc.</li>
                 <li>目的：決済処理のため</li>
                 <li>提供情報：決済に必要な情報（クレジットカード情報は直接Stripeに送信され、当社は保持しません）</li>
@@ -138,14 +138,14 @@ export default function PrivacyPage() {
             </li>
             <li>
               <strong>サーバーホスティング事業者</strong>
-              <ul>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>目的：サービスの安定稼働のため</li>
                 <li>提供情報：サービス利用に必要な情報</li>
               </ul>
             </li>
             <li>
               <strong>分析ツール提供事業者</strong>
-              <ul>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>目的：サービス改善のための利用動向分析</li>
                 <li>提供情報：匿名化された利用統計情報</li>
               </ul>
@@ -173,8 +173,8 @@ export default function PrivacyPage() {
           <ol>
             <li>本サービスは、ユーザー体験の向上及びサービスの改善を目的として、Cookieその他のトラッキング技術を使用します。</li>
             <li>
-              Cookieを使用する目的：
-              <ul>
+              <strong>Cookieを使用する目的：</strong>
+              <ul className="mt-2 ml-4 space-y-1">
                 <li>ログイン状態の維持</li>
                 <li>ユーザー設定の保存</li>
                 <li>サービス利用状況の分析</li>
