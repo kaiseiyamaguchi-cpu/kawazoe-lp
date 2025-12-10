@@ -182,6 +182,22 @@
   padding-left: 0.375em;
 }
 
+/* Nested lists within list items */
+.prose ol > li > ul,
+.prose ol > li > ol,
+.prose ul > li > ul,
+.prose ul > li > ol {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 1rem;
+}
+
+.prose ol > li > ul > li,
+.prose ul > li > ul > li {
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
 .prose strong {
   font-weight: 600;
   color: var(--color-foreground);
