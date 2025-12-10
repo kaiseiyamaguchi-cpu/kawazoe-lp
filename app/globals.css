@@ -166,20 +166,24 @@
   margin-top: 1.25em;
   margin-bottom: 1.25em;
   padding-left: 1.625em;
+  list-style-type: disc;
 }
 
 .prose li {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   line-height: 1.75;
+  display: list-item;
 }
 
 .prose ol > li {
   padding-left: 0.375em;
+  list-style-type: disc;
 }
 
 .prose ul > li {
   padding-left: 0.375em;
+  list-style-type: disc;
 }
 
 /* Nested lists within list items */
