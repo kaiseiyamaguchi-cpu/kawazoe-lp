@@ -19,12 +19,16 @@ export function Footer() {
 
           {/* Links */}
           <div className="flex items-center gap-4 text-sm">
-            <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
-              利用規約・お問い合わせ
+            <Link href="/terms" className="text-muted-foreground hover:text-foreground transition-colors">
+              利用規約
             </Link>
             <Separator orientation="vertical" className="h-4" />
-            <Link href="#" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">
               プライバシーポリシー
+            </Link>
+            <Separator orientation="vertical" className="h-4" />
+            <Link href="/tokushoho" className="text-muted-foreground hover:text-foreground transition-colors">
+              特定商取引法
             </Link>
           </div>
         </div>
