@@ -21,7 +21,7 @@ export default function PrivacyPage() {
       <div className="container mx-auto px-4 py-12 max-w-4xl">
         <article className="prose prose-slate dark:prose-invert max-w-none">
           <h1>プライバシーポリシー</h1>
-          <p className="text-muted-foreground">最終更新日：2025年12月10日</p>
+          <p className="text-muted-foreground">最終更新日：2025年12月26日</p>
 
           <p>
             セレンディップ工房株式会社（以下「当社」といいます）は、当社が提供する習慣化アプリ「TSUZUKU」（以下「本サービス」といいます）におけるユーザーの個人情報の取扱いについて、以下のとおりプライバシーポリシー（以下「本ポリシー」といいます）を定めます。
@@ -91,10 +91,10 @@ export default function PrivacyPage() {
               </ul>
             </li>
             <li>
-              <strong>位置情報</strong>
+              <strong>地域情報</strong>
               <ul className="mt-2 ml-4 space-y-1">
-                <li>概要的な位置情報（市区町村レベル）</li>
-                <li>※詳細な位置情報は収集しません</li>
+                <li>アクセス解析ツール（Google Analytics for Firebase等）により、国・地域レベルの情報を取得することがあります。</li>
+                <li>※詳細な位置情報（GPS等）は収集しません。</li>
               </ul>
             </li>
           </ol>
@@ -125,32 +125,32 @@ export default function PrivacyPage() {
             <li>国の機関もしくは地方公共団体またはその委託を受けた者が法令の定める事務を遂行することに対して協力する必要がある場合であって、本人の同意を得ることにより当該事務の遂行に支障を及ぼすおそれがあるとき</li>
           </ol>
 
-          <h2>第5条（個人情報の共同利用）</h2>
-          <p>当社は、以下の業務委託先と個人情報を共同利用することがあります。</p>
-          <ol>
-            <li>
-              <strong>決済サービス提供事業者</strong>
-              <ul className="mt-2 ml-4 space-y-1">
-                <li>Stripe, Inc.</li>
-                <li>目的：決済処理のため</li>
-                <li>提供情報：決済に必要な情報（クレジットカード情報は直接Stripeに送信され、当社は保持しません）</li>
-              </ul>
-            </li>
-            <li>
-              <strong>サーバーホスティング事業者</strong>
-              <ul className="mt-2 ml-4 space-y-1">
-                <li>目的：サービスの安定稼働のため</li>
-                <li>提供情報：サービス利用に必要な情報</li>
-              </ul>
-            </li>
-            <li>
-              <strong>分析ツール提供事業者</strong>
-              <ul className="mt-2 ml-4 space-y-1">
-                <li>目的：サービス改善のための利用動向分析</li>
-                <li>提供情報：匿名化された利用統計情報</li>
-              </ul>
-            </li>
-          </ol>
+          <h2>第5条（業務委託および第三者への情報提供）</h2>
+          <p>当社は、本サービスの運営にあたり、以下の事業者に業務を委託し、必要な範囲で個人情報を提供することがあります。</p>
+          
+          <h3>5.1 決済処理の委託</h3>
+          <p>当社は、決済処理を Stripe, Inc. に委託しており、決済に必要な範囲で同社へ個人情報を提供します。</p>
+          <ul>
+            <li><strong>委託先</strong>：Stripe, Inc.</li>
+            <li><strong>目的</strong>：決済処理のため</li>
+            <li><strong>提供情報</strong>：決済に必要な情報（クレジットカード情報は直接Stripeに送信され、当社は保持しません）</li>
+          </ul>
+
+          <h3>5.2 サービス基盤の委託</h3>
+          <p>当社は、サービス基盤およびデータベースとして、Google LLC（Firebase）を利用しています。これに伴い、お客様の情報が同社のサーバー（米国等）に保存される場合があります。</p>
+          <ul>
+            <li><strong>委託先</strong>：Google LLC（Firebase）</li>
+            <li><strong>目的</strong>：サービスの安定稼働およびデータ保存のため</li>
+            <li><strong>提供情報</strong>：サービス利用に必要な情報</li>
+          </ul>
+
+          <h3>5.3 分析ツールの利用</h3>
+          <p>当社は、サービス改善のため、以下の分析ツールを利用しています。</p>
+          <ul>
+            <li><strong>委託先</strong>：Google LLC（Google Analytics for Firebase）</li>
+            <li><strong>目的</strong>：サービス改善のための利用動向分析</li>
+            <li><strong>提供情報</strong>：匿名化された利用統計情報</li>
+          </ul>
 
           <h2>第6条（個人情報の開示・訂正・削除）</h2>
           <ol>
@@ -185,7 +185,26 @@ export default function PrivacyPage() {
           </ol>
 
           <h2>第9条（アクセス解析ツール）</h2>
-          <p>当社は、本サービスの利用状況を把握するため、Google Analyticsなどのアクセス解析ツールを使用することがあります。これらのツールは、Cookieを使用してユーザーの情報を収集しますが、個人を特定する情報は含まれません。</p>
+          <p>当社は、本サービスの利用状況を把握するため、以下のアクセス解析ツールを使用しています。</p>
+          <ol>
+            <li>
+              <strong>Google Analytics for Firebase</strong>
+              <ul className="mt-2 ml-4 space-y-1">
+                <li>提供元：Google LLC</li>
+                <li>目的：アプリの利用状況分析、サービス改善</li>
+                <li>収集情報：匿名化されたユーザー行動データ、アプリ利用統計</li>
+              </ul>
+            </li>
+            <li>
+              <strong>Firebase Crashlytics</strong>
+              <ul className="mt-2 ml-4 space-y-1">
+                <li>提供元：Google LLC</li>
+                <li>目的：アプリのクラッシュレポート収集、品質改善</li>
+                <li>収集情報：クラッシュ発生時のデバイス情報、スタックトレース</li>
+              </ul>
+            </li>
+          </ol>
+          <p>これらのツールは、Cookieやモバイル広告IDを使用してユーザーの情報を収集しますが、個人を特定する情報は含まれません。</p>
 
           <h2>第10条（未成年者の個人情報）</h2>
           <ol>
